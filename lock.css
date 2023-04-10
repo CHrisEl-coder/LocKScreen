@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+#container {
+    width: 250px;
+    height: 95vh;
+    border-radius: 20px;
+    background: url(bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 15px;
+    left: 40%;
+
+}
+#status-bar {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    color: snow;
+
+}
+.service-provider {
+    font-size: 10px;
+    margin-left: 5px;
+    margin-top: 7px;
+    font-family: sans-serif;
+}
+#sig {
+    font-size: 12px;
+}
+.g {
+   font-size: 8px;
+   position: relative;
+   top: -2px;
+   font-weight: bold;
+   font-family: arial;
+}
+#time-date {
+    color: snow;
+    text-align: center;
+}
+.time {
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.date {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.main {
+    width: 249px;
+    height: 40px;
+    background-color: #242526;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 5px;
+}
+.main:hover {
+    background-color: #242526;
+    opacity: 0.6;
+    transition: 2s;
+    cursor: pointer;
+}
+#wb {
+    margin-top: 50px;
+}
+#whatsapp {
+    display: flex;
+    flex-direction: column;
+}
+#icon {
+    width: 9px;
+    height: 9px;
+    position: relative;
+    top: 0px;
+    left: 2px;
+
+}
+.img {
+    font-size: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    top: -2px;
+    left: 2px;  
+    font-weight: bold; 
+}
+.sec {
+    color:rgba(255, 255, 255, 0.6);
+    position: relative;
+    top: -2px;
+    left: 3px;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.msg {
+    color: snow;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 12px;
+    left: -100px;
+}
+.sub {
+    display: inline-block;
+    font-size: 7px;
+    color: snow;
+    position: relative;
+    top: 4px;
+    left: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+#dp {
+    width: 80px;
+    height: 30px;
+    background-color: #242526;
+    margin-top: 3px;
+    margin-left: 0;
+    border-radius: 8px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#dp-icon {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 5px;
+    margin-left: 1px;
+}
+#dp:hover {
+    opacity: 0.6;
+    transition: 2s;
+    cursor: pointer;
+}
+#floor {
+    position: absolute;
+    bottom: 0;
+}
+#call {
+    position: relative;
+    left: 2px;
+    color: #5d5e5f;
+}
+#cam {
+    position: relative;
+    right: -133px;
+    color: #5d5e5f;
+}
+#arr1 {
+    color: snow;
+    position: relative;
+    right: -80px;
+}
+#arr2 {
+    position: relative;
+    right: -52px;
+    top: -6px;
+    color: snow;
+    opacity: 0.6;
+}
+.Notification {
+    color: snow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    position: relative;
+    left: -70px;
+    top: 18px;
+    font-weight: bold;
+}
+.lft {
+    left: -58px;
+}
+#fnt {
+    font-size: 7px;
+    font-weight: lighter;
+    position: relative;
+    top: -9px;
+    left: 2px;
+    color: snow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nwp {
+    color: snow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: -12px;
+    left: 2px;
+    font-weight: bold;
+}
+.pst {
+    position: relative;
+    top: -14px;
+    left: 55px;
+}
+.nimg {
+    top: -7px;
+    left: 15px;
+}
